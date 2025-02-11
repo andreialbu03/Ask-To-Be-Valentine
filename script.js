@@ -26,7 +26,7 @@ let yesButton = document.getElementById("yes-button");
 let noButton = document.getElementById("no-button");
 
 document.getElementById("yes-button").addEventListener("click", function () {
-  document.querySelector("header h1").style.display = "none";
+  document.getElementById("question-text").style.display = "none";
   document.getElementsByClassName("buttons")[0].style.display = "none";
   document.getElementById("yayy text").style.display = "block";
 
