@@ -10,6 +10,11 @@ body {
   font-style: italic;
 }
 
+#question-container {
+  text-align: center;
+  width: 100%;
+}
+
 .center-content {
   text-align: center;
 }
@@ -47,7 +52,7 @@ img {
 }
 
 #no-button {
-  background-color: #f44336; /* Red */
+  background-color: #f44336;
   color: white;
 }
 
@@ -57,5 +62,21 @@ img {
   }
   to {
     transform: translateY(-20px);
+  }
+}
+
+/* Media query for mobile devices */
+@media (max-width: 600px) {
+  img {
+    width: 200px;
+    height: 200px;
+  }
+
+  #question-container {
+    padding: 0 20px;
+  }
+
+  h1 {
+    font-size: 24px;
   }
 }
